@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255, 0.87);
+}
+
+button{
+  width: 120px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 3px solid #a625fc;
+  border-radius: 30px;
+  color: #a625fc;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease all;
+}
+
+button:hover{
+  background-color: #a625fc;
+  box-shadow: 0 0 20px 3px #a625fc;
+  color: rgba(255,255,255, 0.87);
+}
+
+.start_screen{
+  text-align: center;
+}
+
+.start_screen h1{
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.start_screen p {
+  font-size: 20px;
+}
+
+.game{
+  text-align: center;
+}
+
+.game h1{
+  font-size: 40px;
+  margin: 40px;
+}
+
+.game h3{
+  font-size: 22px;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.word_container{
+  display: flex;
+  justify-content: center;
+  border: 10px solid #a625fc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.letter, .blank_square{
+  font-size: 70px;
+  color: #242424;
+  background-color: aliceblue;
+  border: 5px solid black;
+  text-transform: uppercase;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter_container{
+  margin-top: 20px;
+}
+
+.letter_container form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter_container form input{
+  width: 50px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.wrong_letters_container{
+  margin-top: 30px;
+}
+
+.game_over{
+  text-align: center;
+}
+
+.game_over h1{
+  font-size: 40px;
+  margin: 20px;
+}
+
+.game_over h3{
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+.game_over button{
+  width: 200px;
+  font-size: 18px;
+}
