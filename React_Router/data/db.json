@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "name": "Teclado",
+            "price": 150,
+            "id": 0
+        },
+        {
+            "name": "Mouse",
+            "price": 70,
+            "id": 1
+        },
+        {
+            "name": "Headset",
+            "price": 120,
+            "id": 2
+        }
+    ]
+    
+}
