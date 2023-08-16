@@ -1,0 +1,9 @@
+.about{
+    text-align: center;
+    margin-top: 10em;
+    margin-inline: 50px;
+}
+
+.about p{
+    margin-block: 40px;
+}
