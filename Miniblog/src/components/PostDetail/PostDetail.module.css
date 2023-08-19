@@ -1,0 +1,43 @@
+.post{
+    width: 100%;
+    text-align: left;
+    border-block: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 15px;
+}
+
+.media_container{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.post img{
+    width: 100%;
+}
+
+.post h2{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.post h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.post p{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.tags{
+    display: flex;
+    gap: 5px;
+}
+
+.tags p{
+    font-size: 16px;
+}

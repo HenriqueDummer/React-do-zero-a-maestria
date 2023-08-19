@@ -22,6 +22,7 @@ const Register = () => {
 
     if (password!== confirmPassword) {
       setError("Passwords do not match")
+      return
     } 
 
     const user = {

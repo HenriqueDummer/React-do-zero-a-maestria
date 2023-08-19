@@ -15,6 +15,7 @@ import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import CreatePost from './pages/CreatePost/CreatePost'
 import Dashboard from './pages/Dashboard/Dashboard'
+import Search from './pages/Search/Search'
 
 // Import Components --------------------
 import Navbar from './components/Navbar/Navbar'
@@ -33,8 +34,6 @@ function App() {
     })
   }, [auth])
 
-  console.log(user)
-
   if(loadingUser){
     return <p>Loading...</p>
   }
@@ -52,6 +51,7 @@ function App() {
               <Route path='/register'  element={!user ? <Register/> : <Navigate to="/" />} />
               <Route path='/dashboard'  element={user ? <Dashboard/> : <Navigate to="/login" />}/>
               <Route path='/posts/create'  element={user ? <CreatePost/> : <Navigate to="/login" />} />
+              <Route path='/search' element={<Search />} />
             </Routes>
           </div>  
           <Footer />

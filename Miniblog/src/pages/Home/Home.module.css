@@ -1,0 +1,50 @@
+.posts_container{
+    width: 75%;
+    max-width: 900px;
+    min-height: 100vh;
+    padding-top: 30px;
+    margin: 0 auto;
+    border-inline: 2px solid rgba(255,255,255,0.2);
+}
+
+.posts_header{
+    margin-inline: 30px;
+}
+
+.posts_container form{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.posts_container form input{
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    font-size: 16px;
+    border: none;
+}
+
+.posts_container form button{
+    width: 100px;
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(147, 26, 228, 1);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
