@@ -11,7 +11,6 @@ const Search = () => {
     const search = query.get("q")
 
     const {documents: posts} = useFetchDocuments("posts", search)
-    console.log(posts)
   return (
     <div className={styles.search}>
         <h1>Results for: "{search}"</h1>

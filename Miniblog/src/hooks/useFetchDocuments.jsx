@@ -19,7 +19,7 @@ const useFetchDocuments = (docCollection, search = null, uid = null) => {
             setLoading(true)
             
             const collectionRef = await collection(db, docCollection)
-
+            
             try {
                 let q 
 
@@ -27,6 +27,12 @@ const useFetchDocuments = (docCollection, search = null, uid = null) => {
                     q = await query(
                         collectionRef,  
                         where("tagsArray", "array-contains", search), 
+                        orderBy("createdAt", "desc")
+                    )
+                }else if(uid){
+                    q = await query(
+                        collectionRef,  
+                        where("uid", "==", uid), 
                         orderBy("createdAt", "desc")
                     )
                 }else{

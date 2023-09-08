@@ -41,3 +41,17 @@
 .tags p{
     font-size: 16px;
 }
+
+.read_button{
+    margin: 10px 0px;
+    width: 100px;
+    border-radius: 2px;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+}
+
+.read_button:hover{
+    background-color: aliceblue;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+}
