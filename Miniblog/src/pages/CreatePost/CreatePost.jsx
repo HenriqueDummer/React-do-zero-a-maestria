@@ -55,7 +55,7 @@ const CreatePost = () => {
 
   return (
     <div className={styles.create_post}>
-        <h2>CreatPost</h2>
+        <h2>Create Post</h2>
         <p>Write about whatever you want and share your knowlage</p>
         <form onSubmit={handleSubmit}>
           <label>

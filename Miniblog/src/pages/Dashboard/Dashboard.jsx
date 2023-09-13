@@ -38,7 +38,7 @@ const Dashboard = () => {
                     <Link to={`/posts/${post.id}`}>
                       <button>Read</button>
                     </Link>
-                    <Link to={`posts/edit/${post.id}`}>
+                    <Link to={`/posts/edit/${post.id}`}>
                       <button>Edit</button>
                     </Link>
                     <button className={styles.delete_btn} onClick={() => deleteDocument(post.id)}>
